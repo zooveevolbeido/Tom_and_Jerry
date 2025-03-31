@@ -1,0 +1,146 @@
+body 
+{
+
+.container {
+    position: relative;
+    background: lightcyan;
+    width: 400px;
+    height: 400px;
+}
+
+#start {
+    position: absolute;
+    left: 420px;
+    top: 50px;
+}
+
+#chg {
+    position: absolute;
+    left: 420px;
+    top: 150px;
+}
+
+#ctr {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 420px;
+    top: 200px;
+}
+
+#hor {
+    position: absolute;
+    background: brown;
+    top: 200px;
+    height: 1px;
+    width: 100%;
+}
+
+#ver {
+    position: absolute;
+    background: brown;
+    left: 200px;
+    width: 1px;
+    height: 100%;
+}
+
+#bigCir {
+    position: absolute;
+    background: lightyellow;
+    left: 100px;
+    top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#mc {
+    position: absolute;
+    background: green;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    left: 195px;
+    top: 195px;
+}
+
+#cirS {
+    background: red;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+#innerRiver {
+    position: absolute;
+    background: lightcyan;
+    width: 170px;
+    height: 170px;
+    left: 7.5%;
+    top: 7.5%;
+    border-radius: 50%;
+}
+
+#com {
+    position: absolute;
+    color: darkslateblue;
+    font-family: cursive;
+    font-size: 40px;
+}
+
+#cong {
+    position: absolute;
+    color: green;
+    top: 170px;
+    left: 50px;
+    font-size: 50px;
+}
+
+#star {
+    position: absolute;
+    left: -120px;
+    top: -80px;
+}
+
+#star1 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-left: solid 80.9px transparent;
+    border-right: solid 80.9px transparent;
+    border-top: solid 58.7808642px yellow;
+    transform: scale(0.4);
+}
+
+#star2 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: -83px;
+    margin-top: -60px;
+    border-left: solid 80.9px transparent;
+    border-right: solid 80.9px transparent;
+    border-top: solid 58.7808642px yellow;
+    transform-origin: 50% 50%;
+    transform: rotate(72deg);
+}
+
+#star3 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    margin-left: -77px;
+    margin-top: -61px;
+    border-left: solid 80.9px transparent;
+    border-right: solid 80.9px transparent;
+    border-top: solid 58.7808642px yellow;
+    transform-origin: 50% 50%;
+    transform: rotate(-72deg);
+}
+
+
+
+}
